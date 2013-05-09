@@ -1,0 +1,114 @@
+/*
+    Document   : style
+    Created on : 23.06.2010, 22:54:12
+    Author     : florianneumeister
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root {
+    display: block;
+}
+
+body {
+    background-color: #F9F9F9;
+    font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    font-weight: lighter;
+}
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+p, li{
+    font-size: 12px;
+    padding: 0 2px;
+}
+a{
+    text-decoration: none;
+}
+label{
+    font-size: 16px;
+}
+table{
+    margin-bottom: 60px;
+}
+.box {
+    margin: 7em auto;
+    -moz-border-radius: 12px;
+    -moz-box-shadow: 0 4px 18px #C8C8C8;
+    -webkit-box-shadow: 0px 4px 18px #c8c8c8;
+    -webkit-border-radius:12px;
+    border: 1px solid #bbb;
+    margin: 7em auto;
+    padding: 40px;
+    background-color: white;
+}
+
+.box p:last-child{
+    margin-bottom: 0px;
+}
+
+h1, h2, h3{
+    margin-top: 0px;
+    text-shadow: 1px 1px grey;
+}
+
+.center{
+    text-align: center;
+}
+
+input[type=submit]{
+    border: 1px solid #666;
+    padding: 3px 15px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #bbb;
+    cursor: pointer;
+}
+
+/*
+    Login-Bereich
+*/
+.login input, .register input {
+    float: right;
+}
+
+.box.register{
+    width: 450px;
+}
+.register fieldset{
+    margin-top: 15px;
+    border-style: dashed;
+}
+.box.login {
+    width: 320px;
+}
+.error{
+    color: red;
+}
+ul.error{
+    padding-left: 15px;
+}
+
+#register_link {
+    text-decoration: none;
+}
+.underline{
+    text-decoration: underline;
+}
+#user_container{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 3px 20px;
+    background-color: #444;
+    color: white;
+    font-size: 0.8em;
+}
+
+#user_container a{
+    color: white;
+}
